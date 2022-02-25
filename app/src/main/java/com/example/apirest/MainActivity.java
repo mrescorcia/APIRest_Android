@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
                     txtTitle.setText(jsonObject.getString("title"));
                     txtBody.setText(jsonObject.getString("body"));*/
 
-                    Toast.makeText(MainActivity.this, "Resultado: " + response, Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this, "Resultados: " + response, Toast.LENGTH_LONG).show();
 
                 } catch (JSONException e) {
                     e.printStackTrace();
